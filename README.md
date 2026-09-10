@@ -62,7 +62,7 @@ https://img.shields.io/badge/License-MIT-yellow
 -  
   1️⃣ Clone & Enter
   
-    git clone https://github.com/yourusername/rag-system.git
+    git clone https://github.com/Nolan-Struct/rag-system.git
     cd rag-system
   2️⃣ Create a Virtual Environment
   
