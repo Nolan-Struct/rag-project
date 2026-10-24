@@ -22,7 +22,7 @@ def read_document():
 def split_text(texts: str):
     print("- ready data for chunking ...")
     text_splitter = RecursiveCharacterTextSplitter(
-        separators=["\n\n", "\n", ". ", " ", ""],   
+        separators=["\n", ". ", " ", ""],   
         chunk_size=800,                            
         chunk_overlap=100,                         
         length_function=len,
