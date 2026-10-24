@@ -2,7 +2,6 @@
 from langchain_classic.document_loaders import PyPDFDirectoryLoader
 from qdrant_client import QdrantClient
 from qdrant_client.models import PointStruct , VectorParams , Distance 
-import groq
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_classic.schema.document import Document
 from sentence_transformers import SentenceTransformer
